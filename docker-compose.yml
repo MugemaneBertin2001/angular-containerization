@@ -1,0 +1,14 @@
+services:
+  angular-containerization:
+    container_name: angular-containerization
+    build: .
+    image: angular-containerization
+    ports:
+      - 80:80
+    expose:
+      - 80
+    networks:
+      - internalnet
+networks:
+ internalnet:
+  driver: bridge

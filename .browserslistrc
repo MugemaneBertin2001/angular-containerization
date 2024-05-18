@@ -1,0 +1,16 @@
+# Browserslist config file
+
+# Target browsers
+last 2 versions
+> 1%
+maintained node versions
+not dead
+
+# Optional sections for different environments
+[production]
+> 0.2%
+not dead
+not op_mini all
+
+[development]
+last 1 version
